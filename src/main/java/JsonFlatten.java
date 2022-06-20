@@ -6,10 +6,10 @@ public class JsonFlatten {
 
     public static void main (String[] args) {
 
-        BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String line = null;
         try{
-           line = f.readLine();
+           line = reader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
         }
